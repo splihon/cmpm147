@@ -1,6 +1,6 @@
-// project.js - purpose and description here
-// Author: Your Name
-// Date:
+// project.js - Integrate "Pixel Puzzler" generator into portfolio website
+// Author: Segolen Plihon
+// Date:4/4/24
 
 // NOTE: This is how we might start a basic JavaaScript OOP project
 
@@ -73,7 +73,6 @@ function main() {
   
   generate();
 
-
   // create an instance of the class
   //let myInstance = new MyProjectClass("value1", "value2");
 
@@ -82,4 +81,4 @@ function main() {
 }
 
 // let's get this party started - uncomment me
-//main();
+main();
