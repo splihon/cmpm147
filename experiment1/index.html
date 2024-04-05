@@ -24,8 +24,9 @@
     <script type="text/javascript" src="../js/site.js" DEFER></script>
 	<!-- Use me for a JavaScript OOP Project -->
 	<script type="text/javascript" src="./js/project.js" DEFER></script>
+	
 	<!-- Use me for a p5.js project -->
-	<script type="text/javascript" src="./js/sketch.js" DEFER></script>
+	<!-- <script type="text/javascript" src="./js/sketch.js" DEFER></script> -->
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/experiment.css -->
@@ -36,7 +37,57 @@
 
 			<div class="minor-section">
 				<div id="canvas-container">
-					<!-- canvas will be added here -->
+					<!-- (html from glitch/relevant code?) canvas will be added here -->
+					<!DOCTYPE html>
+					<html lang="en">
+					<head>
+						<title>Pixel Puzzler</title>
+						<meta charset="utf-8" />
+						<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+						<meta name="viewport" content="width=device-width, initial-scale=1" />
+						<script src="/script.js" defer></script>
+					</head>
+					<body>
+						<!-- Button Styling -->
+						<button id="clicker" style="background-color: #4CAF50;
+						border: none;
+						color: white;
+						padding: 15px 32px;
+						text-align: center;
+						text-decoration: none;
+						display: inline-block;
+						font-size: 16px;
+						margin: 4px 2px;
+						cursor: pointer;
+						border-radius: 8px;">
+						Generate Puzzle
+						</button>
+						
+						<!-- Box Div Styling -->
+						<div
+						id="box" style="font-family: 'Courier New', monospace; border: 3px dashed #4CAF50; padding: 1em; padding: 1em; margin: 1em; box-shadow: 3px 3px 10px #888; background: #f0f0f0; color: #333; text-align: center;"
+						></div>
+						
+						<!-- Additional Elements for Interaction -->
+						<!--  Instructions or Description-->
+						<div style="font-family: 'Arial', sans-serif; padding: 0.5em; margin-top: 20px; background: #ddd; boarder-left: 6px solid #4CAF50; color: #555;">
+						<h2>Welcome to Pixel Puzzler!</h2>
+						<p>Press the "Generate Puzzle" button to start your digital adventure. Solve puzzles, decode the glitches, and restore order to the digital realm!</p>
+						</div>
+						
+						<!-- Changes/Style Additions-->
+						<!-- Button:-->
+							<!-- Reroll It was changed to Generate Puzzle; Styling: green background, rounded corners, and padding for more clickable area-->
+						<!-- Box Div: -->
+							<!-- Font change to Courier New, monospace to give more digital typewriter feel; Border: dashed and green to match button; Background/Text Colors: adjusted for better readability and aesthetic -->
+						<!-- Additional Elements-->
+							<!-- Added a div for instructions/game description for engagement and context for Pixel Puzzler -->
+
+						<!--chatgpt helped by telling me what different editor options that are available to help me personalize the style -->
+
+					</body>
+					</html>
+
 				</div>
                 <div class="fullscreen-box">
                     <button id="fullscreen">Fullscreen</button>
